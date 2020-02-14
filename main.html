@@ -1,0 +1,35 @@
+<!doctype html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<script src="main.js" async></script>
+	<!--Bootstrap for styling.-->
+	<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css" integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
+	<link href="main.css" rel="stylesheet">
+	<!--ding sound for the tif-->
+	<audio class="sound"><source src="Sounds/ding.mp3" type="audio/mpeg"></audio>
+	<title>Assignment 1 To Do List</title>
+</head>
+<body>
+	<!--div to hold the list for css-->
+	<div class="container">
+		<header>
+			<h1>To Do List<h1>
+		</header>
+		<main>
+			<p>This to do list is one you can create yourself which check off, just input text and click submit you can check off previously put tasks and delete them if they are no longer needed.</p>
+			<!--div to hold the tasks that are created by the user-->
+			<div class="List">
+			</div>
+			<!--place to submit new task-->
+			<input type="text" class="new" placeholder="Submit new list item">
+			<!--submit button for them to submit their task-->
+			<button class="submit">Submit</button>
+			<!--delete all button tried doing a delete all but couldnt figure it out-->
+			<!-- <button class="deleteAll">Delete a checked</button> -->
+		</main>
+		<footer>
+			<small>ding sound found <a href="http://www.orangefreesounds.com/video-game-bonus-bell-sound-effect/">here</a></footer>
+	</div>
+</body>
+</html>
